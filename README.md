@@ -1,52 +1,27 @@
 # Selenium Java Automation Framework
 
-This is a complete Selenium WebDriver automation framework built using **Java**, **TestNG**, and **Page Object Model (POM)**.
+This is a sample Selenium WebDriver automation framework built using **Java**, **TestNG**, and **Page Object Model (POM)**.
+The repository includes a small demo test suite that logs into Sauce Demo and verifies inventory, cart and checkout pages.
 
-## 📌 Features
+## 📌 Features implemented in this project
 - Page Object Model (POM)
 - TestNG test structure
 - Thread-safe WebDriver using ThreadLocal
 - Cross-browser execution (Chrome, Firefox)
-- Screenshots on failure
-- RetryAnalyzer for flaky tests
-- Config-driven framework
-- Utils for waits, screenshots, config, common actions
-- Parallel execution support
-- TestNG listeners
+- Basic Screenshots on failure (utility present)
+- RetryAnalyzer (skeleton present)
+- Config-driven framework (config.properties)
+- Utils for WebDriverFactory and basic waits via BasePage
+- Parallel execution support via testng.xml
+- Example tests: LoginTest, InventoryTest, CartTest, CheckoutTest
 
-## 📁 Project Structure
-```
-selenium-java-project
-│
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   ├── base
-│   │   │   ├── pages
-│   │   │   └── utils
-│   │   └── resources
-│   │       └── config.properties
-│   │
-│   └── test
-│       └── java
-│           └── tests
-│
-├── pom.xml
-└── testng.xml
-```
+## Demo site
+This demo uses the public site: https://www.saucedemo.com
+Use credentials in `config.properties` (standard_user / secret_sauce)
 
 ## 🚀 How to Run
+1. Ensure Java & Maven are installed.
+2. From project root:
 ```
-mvn clean test
+mvn clean test -Dbrowser=chrome
 ```
-
-## 📷 Screenshots on Failure
-Screenshots are saved automatically inside `/screenshots`.
-
-## 🔧 Technologies Used
-- Java 17+
-- Selenium WebDriver
-- TestNG
-- Maven
-- ThreadLocal WebDriver
-- POM Architecture

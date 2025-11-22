@@ -8,11 +8,11 @@ public class LoginTest extends BaseTest {
 
     @Test
     public void loginTest() {
-        driver().get("https://the-internet.herokuapp.com/login");
+        driver().get("https://www.saucedemo.com");
 
         LoginPage login = new LoginPage(driver());
-        login.enterUsername("tomsmith");
-        login.enterPassword("SuperSecretPassword!");
+        login.enterUsername("standard_user");
+        login.enterPassword("secret_sauce");
         login.clickLogin();
     }
 }

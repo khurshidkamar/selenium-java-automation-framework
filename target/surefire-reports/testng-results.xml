@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-22T08:55:12 IST" name="Suite" finished-at="2025-11-22T08:55:38 IST" duration-ms="26376">
+  <suite started-at="2025-11-22T10:18:08 IST" name="Suite" finished-at="2025-11-22T10:18:55 IST" duration-ms="46723">
     <groups>
     </groups>
-    <test started-at="2025-11-22T08:55:12 IST" name="ChromeRun" finished-at="2025-11-22T08:55:38 IST" duration-ms="26376">
+    <test started-at="2025-11-22T10:18:08 IST" name="ChromeRun" finished-at="2025-11-22T10:18:55 IST" duration-ms="46723">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@2fd6b6c7]" started-at="2025-11-22T08:55:12 IST" name="setup" finished-at="2025-11-22T08:55:15 IST" duration-ms="2612" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@2928854b]" started-at="2025-11-22T10:18:08 IST" name="setup" finished-at="2025-11-22T10:18:11 IST" duration-ms="2628" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:tests.LoginTest@2fd6b6c7]" started-at="2025-11-22T08:55:15 IST" name="loginTest" finished-at="2025-11-22T08:55:16 IST" duration-ms="1084" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:tests.LoginTest@2928854b]" started-at="2025-11-22T10:18:11 IST" name="loginTest" finished-at="2025-11-22T10:18:12 IST" duration-ms="1162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2fd6b6c7]" started-at="2025-11-22T08:55:16 IST" name="tearDown" finished-at="2025-11-22T08:55:16 IST" duration-ms="243" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2928854b]" started-at="2025-11-22T10:18:12 IST" name="tearDown" finished-at="2025-11-22T10:18:12 IST" duration-ms="617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginTest -->
       <class name="tests.InventoryTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.InventoryTest@4df50bcc]" started-at="2025-11-22T08:55:16 IST" name="setup" finished-at="2025-11-22T08:55:17 IST" duration-ms="1000" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.InventoryTest@12e61fe6]" started-at="2025-11-22T10:18:12 IST" name="setup" finished-at="2025-11-22T10:18:14 IST" duration-ms="1193" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,17 +39,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="inventoryPageTest()[pri:0, instance:tests.InventoryTest@4df50bcc]" started-at="2025-11-22T08:55:17 IST" name="inventoryPageTest" finished-at="2025-11-22T08:55:18 IST" duration-ms="1205" status="PASS">
+        <test-method signature="inventoryPageTest()[pri:0, instance:tests.InventoryTest@12e61fe6]" started-at="2025-11-22T10:18:14 IST" name="inventoryPageTest" finished-at="2025-11-22T10:18:15 IST" duration-ms="1182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inventoryPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.InventoryTest@4df50bcc]" started-at="2025-11-22T08:55:18 IST" name="tearDown" finished-at="2025-11-22T08:55:18 IST" duration-ms="235" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.InventoryTest@12e61fe6]" started-at="2025-11-22T10:18:15 IST" name="tearDown" finished-at="2025-11-22T10:18:15 IST" duration-ms="607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.InventoryTest -->
       <class name="tests.CartTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CartTest@6b26e945]" started-at="2025-11-22T08:55:18 IST" name="setup" finished-at="2025-11-22T08:55:19 IST" duration-ms="786" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CartTest@7ee955a8]" started-at="2025-11-22T10:18:15 IST" name="setup" finished-at="2025-11-22T10:18:17 IST" duration-ms="1177" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,49 +60,28 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="cartPageTest()[pri:0, instance:tests.CartTest@6b26e945]" started-at="2025-11-22T08:55:19 IST" name="cartPageTest" finished-at="2025-11-22T08:55:20 IST" duration-ms="1240" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cartPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@6b26e945]" started-at="2025-11-22T08:55:20 IST" name="tearDown" finished-at="2025-11-22T08:55:21 IST" duration-ms="217" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.CartTest -->
-      <class name="tests.CheckoutTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CheckoutTest@63a65a25]" started-at="2025-11-22T08:55:21 IST" name="setup" finished-at="2025-11-22T08:55:21 IST" duration-ms="812" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="checkoutFlowTest()[pri:0, instance:tests.CheckoutTest@63a65a25]" started-at="2025-11-22T08:55:21 IST" name="checkoutFlowTest" finished-at="2025-11-22T08:55:38 IST" duration-ms="16418" status="FAIL">
+        <test-method signature="cartPageTest()[pri:0, instance:tests.CartTest@7ee955a8]" started-at="2025-11-22T10:18:17 IST" name="cartPageTest" finished-at="2025-11-22T10:18:34 IST" duration-ms="17263" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: first-name (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '4.20.0', revision: '866c76ca80'
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.id: checkghgh (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\Khurshid\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61499}, goog:processID: 8944, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61499/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e4d6d6738a08c640b170e7c2f23b579a]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\Khurshid\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51297}, goog:processID: 20676, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51297/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5698ce34d27227e664573835017791ea]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: first-name (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '4.20.0', revision: '866c76ca80'
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: checkghgh (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\Khurshid\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61499}, goog:processID: 8944, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61499/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e4d6d6738a08c640b170e7c2f23b579a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\Khurshid\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51297}, goog:processID: 20676, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51297/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5698ce34d27227e664573835017791ea
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at base.BasePage.type(BasePage.java:22)
-at pages.CheckoutPage.enterCheckoutInfo(CheckoutPage.java:21)
-at tests.CheckoutTest.checkoutFlowTest(CheckoutTest.java:30)
+at base.BasePage.click(BasePage.java:18)
+at pages.CartPage.clickCheckout(CartPage.java:21)
+at tests.CartTest.cartPageTest(CartTest.java:27)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -117,19 +96,104 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 at org.testng.TestRunner.privateRun(TestRunner.java:848)
 at org.testng.TestRunner.run(TestRunner.java:621)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@7ee955a8]" started-at="2025-11-22T10:18:34 IST" name="tearDown" finished-at="2025-11-22T10:18:35 IST" duration-ms="1102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.CheckoutTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CheckoutTest@1677d1]" started-at="2025-11-22T10:18:35 IST" name="setup" finished-at="2025-11-22T10:18:36 IST" duration-ms="1199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkoutFlowTest()[pri:0, instance:tests.CheckoutTest@1677d1]" started-at="2025-11-22T10:18:36 IST" name="checkoutFlowTest" finished-at="2025-11-22T10:18:53 IST" duration-ms="17189" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.id: checkghgh (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\Khurshid\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51591}, goog:processID: 19256, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51591/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c0291e2b1718b4eea16e7bb710d8d2a7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: checkghgh (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\Khurshid\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51591}, goog:processID: 19256, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51591/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c0291e2b1718b4eea16e7bb710d8d2a7
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at base.BasePage.click(BasePage.java:18)
+at pages.CartPage.clickCheckout(CartPage.java:21)
+at tests.CheckoutTest.checkoutFlowTest(CheckoutTest.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkoutFlowTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@63a65a25]" started-at="2025-11-22T08:55:38 IST" name="tearDown" finished-at="2025-11-22T08:55:38 IST" duration-ms="327" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@1677d1]" started-at="2025-11-22T10:18:54 IST" name="tearDown" finished-at="2025-11-22T10:18:55 IST" duration-ms="1089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
